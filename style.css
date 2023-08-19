@@ -109,12 +109,6 @@
     flex-shrink: 0;
 }
 
-.sign-up:hover {
-    background-color: #e5e7eb;
-    border-color: #e5e7eb;
-    color: black;
-}
-
 .quote {
     background-color: #e5e7eb;
     color: #1f2937;
@@ -156,6 +150,12 @@
 
 .call-to-action-text p {
     font-weight: normal;
+}
+
+.sign-up:hover {
+    background-color: #e5e7eb;
+    border-color: #e5e7eb;
+    color: black;
 }
 
 body {
