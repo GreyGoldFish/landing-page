@@ -9,9 +9,13 @@
     padding: 0 8em;
 }
 
-.header img {
+.header a img {
     width: 8em;
     filter: invert(100%);
+}
+
+.header a:hover {
+    color: grey;
 }
 
 .footer, .hero {
@@ -127,7 +131,7 @@ ul {
     gap: 2em;
 }
 
-a {
+ul li a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb
