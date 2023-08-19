@@ -5,6 +5,18 @@
 
 .header {
     justify-content: space-between;
+    background-color: #1f2937;
+    padding: 0 8em;
+}
+
+.header img {
+    width: 8em;
+    filter: invert(100%);
+}
+
+.footer, .hero {
+    background-color: #1f2937;
+    color: white;
 }
 
 .footer {
@@ -12,9 +24,8 @@
     height: 4em;
 }
 
-.hero, .footer {
-    background-color: #1f2937;
-    color: white;
+.hero {
+    padding: 4em 8em;
 }
 
 body {
@@ -30,8 +41,13 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-shrink: 0;
+    gap: 2em;
 }
 
 a {
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb
 }
