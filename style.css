@@ -106,6 +106,7 @@
     width: 86px;
     padding: 4px 0;
     border-radius: 8px;
+    flex-shrink: 0;
 }
 
 .sign-up:hover {
@@ -119,6 +120,7 @@
     color: #1f2937;
     display: flex;
     justify-content: center;
+    padding: 2em;
 }
 
 .quote-text {
@@ -134,6 +136,26 @@
     font-style: normal;
     display: flex;
     justify-content: flex-end;
+}
+
+.call-to-action {
+    margin: 4em auto;
+    color: white;
+    padding: 2em 6em;
+    border-radius: 8px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 256px;
+}
+
+.call-to-action .sign-up {
+    background-color: #3882f6;
+}
+
+.call-to-action-text p {
+    font-weight: normal;
 }
 
 body {
