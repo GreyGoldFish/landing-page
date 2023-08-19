@@ -65,6 +65,7 @@
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    margin-bottom: 2em;
 }
 
 .info-text {
@@ -111,6 +112,28 @@
     background-color: #e5e7eb;
     border-color: #e5e7eb;
     color: black;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-text {
+    width: 1024px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-citation {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    display: flex;
+    justify-content: flex-end;
 }
 
 body {
