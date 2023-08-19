@@ -26,6 +26,42 @@
 
 .hero {
     padding: 4em 8em;
+    display: flex;
+}
+
+.hero-content {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    flex: 1;
+}
+
+.hero img {
+    max-width: 512px;
+    flex: 1;
+}
+
+.hero-text {
+    font-size: 18px;
+    font-weight: normal;
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text .sign-up, .call-to-action {
+    background-color: #3882f6;
+}
+
+.hero-text .sign-up {
+    margin-top: 16px;
+}
+
+.sign-up {
+    color: white;
+    width: 86px;
+    padding: 4px 0;
+    border-radius: 8px;
 }
 
 body {
